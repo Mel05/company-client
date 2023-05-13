@@ -1,0 +1,14 @@
+.root {
+	display: flex;
+
+	@media (max-width: 700px) {
+		flex-direction: column;
+	}
+}
+
+.categoriesSort {
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+	padding: 18px;
+}
